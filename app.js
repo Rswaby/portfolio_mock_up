@@ -61,7 +61,9 @@ app.use((err,req, res,next) => {
     res.status(err.status);
     res.send(err);
   });
-
+/**
+ * TODO: Consider adding a target attribute set to _blank on the a tags for the live links to your projects so that they open in a new window.
+ */
   
 
 app.listen(port, () => {
