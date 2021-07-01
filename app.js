@@ -30,7 +30,19 @@ app.get('/about', (req,res)=>{
 
 app.get('/project/:id', (req,res)=>{
     logMessage(`loading project:id ${req.params.id}`)
-    res.render('project');
+    const { projects } = data;
+    const { id } = req.params;
+    let projectDetails = {}
+    projects.forEach( ( project ) => {
+        if(project.id === id){
+            projectDetails = project;
+        }
+    });
+    if(Object.keys(projectDetails).length > 0 ){
+        res.render('project',projectDetails);
+    }else{
+    res.redirect(`/projects-does-not-exist-with-id/${id}`)
+    }
 });
 app.use((req,res,next)=>{
     const err = new Error();
@@ -41,7 +53,7 @@ app.use((req,res,next)=>{
 })
 app.use((err,req, res,next) => {
     if(!err.status){
-        logMessage("Error Handler")
+        logMessage(" Error ")
         console.error(err);
         err.status = 500;
     }
