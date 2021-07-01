@@ -1,0 +1,24 @@
+{
+  "name": "express_v1",
+  "version": "1.0.0",
+  "description": "Simple express application using pug",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rswaby/express_v1.git"
+  },
+  "author": "Rohan Swaby",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rswaby/express_v1/issues"
+  },
+  "homepage": "https://github.com/Rswaby/express_v1#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
+  }
+}

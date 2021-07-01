@@ -1,0 +1,42 @@
+{
+    "potential_headings":["My Portfolio","Hey, Potential Employers","Let's make the web great together!"], 
+    "portfolio_description":"These are some of the projects I have worked on along with links to their github and live demo",
+    "projects":[
+        {
+            "id":"3kVzwDx6ey",
+            "project_name":"red wheel borrow",
+            "description":"this is the project description",
+            "technologies":["javaScript","HTML"],
+            "live_link":"",
+            "github_link":"https://github.com/Rswaby/random_gen",
+            "image_urls":["https://placehold.it/1200x550","https://placehold.it/1200x550"]
+        },
+        {
+            "id":"y0Zm946WHg",
+            "project_name":"project 2",
+            "description":"this is the project description",
+            "technologies":["javaScript","HTML"],
+            "live_link":"",
+            "github_link":"https://github.com/Rswaby/data-pagination-filter",
+            "image_urls":["https://placehold.it/1200x550","https://placehold.it/1200x550"]
+        },
+        {
+            "id":"jXKa9uF5Su",
+            "project_name":"project 3",
+            "description":"this is the project description",
+            "technologies":["javaScript","HTML"],
+            "live_link":"",
+            "github_link":"https://github.com/Rswaby/interactive_form_",
+            "image_urls":["https://placehold.it/1200x550","https://placehold.it/1200x550"]
+        },
+        {
+            "id":"iNc5s2s-3O",
+            "project_name":"project 3",
+            "description":"this is the project description",
+            "technologies":["javaScript","HTML"],
+            "live_link":"",
+            "github_link":"https://github.com/Rswaby/oop_game_v2",
+            "image_urls":["https://placehold.it/1200x550","https://placehold.it/1200x550"]
+        }
+    ]
+}
