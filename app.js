@@ -25,7 +25,8 @@ app.get('/', (req,res)=>{
 });
 
 app.get('/about', (req,res)=>{
-    res.render("about");
+    const { about } = data
+    res.render("about",about);
 });
 
 app.get('/project/:id', (req,res)=>{
