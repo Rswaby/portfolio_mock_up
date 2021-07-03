@@ -1,3 +1,11 @@
 extends layout.pug
 
 block content
+    nav.nav
+        a(href='/')
+            span &larr;
+            |  Back
+
+    article.portfolio-intro
+        h1(style='text-align: center;') It's not you, It's us. we have a #{error.status}
+        h1(style='text-align: center;') #{error.message}
