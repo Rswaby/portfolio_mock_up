@@ -4,7 +4,6 @@ const app = express();
 // serve static folder public.
 // http://localhost:3000/static/css/styles.css
 app.use('/static',express.static('public'));
-// app.use(bodyParser.urlencoded({extended: true}));
 app.set('view engine','pug');
 
 const data = require('./data.json');

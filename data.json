@@ -4,7 +4,7 @@
     "about":{
         "name":"Rohan Swaby",
         "job_title":"Full Stack JavaScript Developer",
-        "about_bio":"There are different types of secrets. She had held onto plenty of them during her life, but this one was different. She found herself holding onto the worst type. It was the type of secret that could gnaw away at your insides if you didn't tell someone about it, but it could end up getting you killed if you did.",
+        "about_bio":"Recent graduate seeking employment as an  Entry Level  Software Engineer to use experiences in designing software applications and developing testing procedures. Highly proficient in Python, Java and JavaScript. feel free to use the links to get in touch 😃 🚀",
         "skills": [
             "HTML","CSS",
             "JavaScript",
@@ -30,9 +30,9 @@
         {
             "id":"3kVzwDx6ey",
             "project_name":"Random Quotes",
-            "description":"this is the project description",
-            "technologies":["javaScript","HTML"],
-            "live_link":"",
+            "description":"Simple app that will display a random quote",
+            "technologies":["javaScript","HTML","CSS","GIT","Github Pages"],
+            "live_link":"https://github.com/Rswaby/random_gen",
             "github_link":"https://github.com/Rswaby/random_gen",
             "image_urls":[
                 "../static/images/random_gen1.png",
@@ -45,10 +45,10 @@
         {
             "id":"y0Zm946WHg",
             "project_name":"Phrase Hunter ",
-            "description":"this is the project description",
-            "technologies":["javaScript","HTML"],
-            "live_link":"",
-            "github_link":"https://github.com/Rswaby/data-pagination-filter",
+            "description":"A simple OOP project that ask users to guess the unkown phrase.",
+            "technologies":["javaScript","HTML","CSS","GIT","Github Pages"],
+            "live_link":"https://rswaby.github.io/oop_game_v2/",
+            "github_link":"https://github.com/Rswaby/oop_game_v2",
             "image_urls":[
                 "../static/images/phrase_hunter1.png",
                 "../static/images/phrase_hunter2.png",
@@ -59,10 +59,10 @@
         {
             "id":"jXKa9uF5Su",
             "project_name":"Data pagination",
-            "description":"this is the project description",
-            "technologies":["javaScript","HTML"],
-            "live_link":"",
-            "github_link":"https://github.com/Rswaby/interactive_form_",
+            "description":"Simple pagination project using js to dynamically update page content based on page number",
+            "technologies":["javaScript","HTML","CSS","GIT", "Github Pages"],
+            "live_link":"https://rswaby.github.io/data-pagination-filter/",
+            "github_link":"https://github.com/Rswaby/data-pagination-filter",
             "image_urls":[
                 "../static/images/data_pag1.png",
                 "../static/images/data_pag2.jpg",
@@ -74,10 +74,10 @@
         {
             "id":"iNc5s2s-3O",
             "project_name":"Interactive Form",
-            "description":"this is the project description",
-            "technologies":["javaScript","HTML"],
-            "live_link":"",
-            "github_link":"https://github.com/Rswaby/oop_game_v2",
+            "description":"Simple project that showcases form common practices for for validtions ex. Email when user starts typing in the email field the error message will show until a valid email address is detected, or Email If the email address field is empty, error message will show: 'Email address cannot be blank' If the email address field is not formatted correctly error message will show: 'Email address must be formatted correctly' and credit card feild should follow one of Visa, Master card or American Express formats to be valid not just 13-16 characters example",
+            "technologies":["javaScript","HTML","CSS","GIT","Github Pages"],
+            "live_link":"https://rswaby.github.io/interactive_form_/",
+            "github_link":"https://github.com/Rswaby/interactive_form_",
             "image_urls":[
                 "../static/images/interactive_form1.png",
                 "../static/images/interactive_form2.png",
