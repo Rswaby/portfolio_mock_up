@@ -32,7 +32,7 @@
             "project_name":"Random Quotes",
             "description":"Simple app that will display a random quote",
             "technologies":["javaScript","HTML","CSS","GIT","Github Pages"],
-            "live_link":"https://github.com/Rswaby/random_gen",
+            "live_link":"https://rswaby.github.io/random_gen/",
             "github_link":"https://github.com/Rswaby/random_gen",
             "image_urls":[
                 "../static/images/random_gen1.png",
