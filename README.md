@@ -39,9 +39,13 @@ nav a span {
 views/layout.pug
 
 ```pug
- ...
- link(href='https://fonts.googleapis.com/css?family=Crimson+Text|Work+Sans:400,700', rel='stylesheet')
- ...
+ <!DOCTYPE html>
+html(lang="en" dir="ltr")
+  head
+    //- ...
+    link(href='https://fonts.googleapis.com/css?family=Crimson+Text|Work+Sans:400,700', rel='stylesheet')
+    //- ...
+
 ```
 
 ### How to run
