@@ -84,6 +84,19 @@
                 "../static/images/interactive_form3.png",
                 "../static/images/interactive_form4.png"
             ]
+        },
+        {
+            "id":"QHHKJcvryu",
+            "project_name":"Public Api Request",
+            "description":"Simple project that makes a request to a public api and displays (n) randome user results on the screen when the page loades",
+            "technologies":["javaScript","HTML","CSS","GIT","Github Pages"],
+            "live_link":"https://rswaby.github.io/pub-api-request-v1/",
+            "github_link":"https://github.com/Rswaby/pub-api-request-v1",
+            "image_urls":[
+                "../static/images/pub_api1.png",
+                "../static/images/pub_api2.png",
+                "../static/images/pub_api3.png"
+            ]
         }
     ]
 }
